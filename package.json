@@ -1,0 +1,26 @@
+{
+  "name": "a-bot",
+  "version": "1.0.0",
+  "description": "Customer Support Chatbot, a powerful tool designed to enhance customer support experiences through AI-driven interactions. Leveraging Azure services, this chatbot offers a Training API for personalized chatbot training and an Integration API for seamless embedding into various web platforms.",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosLunaGit/a-bot.git"
+  },
+  "author": "Carlos Luna - AESS Of Sweden Founder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlosLunaGit/a-bot/issues"
+  },
+  "homepage": "https://github.com/CarlosLunaGit/a-bot#readme",
+  "dependencies": {
+    "botbuilder": "^4.21.3",
+    "restify": "^11.1.0"
+  }
+}
