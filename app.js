@@ -14,7 +14,7 @@ const adapter = new BotFrameworkAdapter({
 
 const myBot = new EchoBot();
 
-server.post('/api/messages', (req, res) => {
+server.post('/api/messages', (req, res, next) => {
     adapter.processActivity(req, res, async (context) => {
         await myBot.run(context);
     });

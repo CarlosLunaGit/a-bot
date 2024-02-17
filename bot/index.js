@@ -12,7 +12,7 @@ class EchoBot extends ActivityHandler {
             const membersAdded = context.activity.membersAdded;
             for (let member of membersAdded) {
                 if (member.id !== context.activity.recipient.id) {
-                    await context.sendActivity('Welcome to the Customer Support Chatbot!');
+                    await context.sendActivity('Welcome Carlos to the Customer Support Chatbot!');
                 }
             }
             await next();
