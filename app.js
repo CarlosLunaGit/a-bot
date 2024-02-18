@@ -1,9 +1,12 @@
+require('dotenv').config();
 const express = require('express');
 const multer = require('multer');
 const { BotFrameworkAdapter } = require('botbuilder');
 const { EchoBot } = require('./bot/index');
 const { uploadFileToBlobStorage } = require('./bot/fileStorageHandler'); // Ensure this is correctly implemented
 const upload = multer({ dest: 'uploads/' });
+
+
 
 const app = express();
 const port = process.env.PORT || 3978;

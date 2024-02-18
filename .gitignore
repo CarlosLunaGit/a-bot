@@ -1,2 +1,5 @@
 node_modules
 venv
+azurite
+uploads
+azurite-debug.log
