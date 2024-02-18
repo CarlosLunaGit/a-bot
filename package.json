@@ -20,7 +20,11 @@
   },
   "homepage": "https://github.com/CarlosLunaGit/a-bot#readme",
   "dependencies": {
+    "@azure/ai-language-text": "^1.1.0",
     "@azure/ai-text-analytics": "^5.1.0",
+    "@azure/cognitiveservices-luis-runtime": "^5.0.0",
+    "@azure/ms-rest-azure-js": "^2.1.0",
+    "@azure/ms-rest-js": "^2.7.0",
     "@azure/storage-blob": "^12.17.0",
     "botbuilder": "^4.21.3",
     "dotenv": "^16.4.4",
