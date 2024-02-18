@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/CarlosLunaGit/a-bot#readme",
   "dependencies": {
+    "@azure/ai-text-analytics": "^5.1.0",
     "@azure/storage-blob": "^12.17.0",
     "botbuilder": "^4.21.3",
     "dotenv": "^16.4.4",
